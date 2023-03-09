@@ -62,7 +62,8 @@
     - 즉 사용자를 붙잡아두지 않고 연결을 종료하기 때문에 새로 연결해야 한다. 
     - 이 덕분에 수많은 클라이언트가 서버에 요청을 하더라도 순차적으로 처리할 수 있다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/65549a2f-08d7-4973-8abd-9b0771c3031a/Untitled.png)
+![Untitled (1)](https://user-images.githubusercontent.com/106129404/223941794-145a8673-877d-44b6-89b1-ca05dcf9e850.png)
+
   
 1. 도메인에 접속하면 웹 브라우저가 html 파일을 보내달라고 웹 서버에 요청
 2. 웹 서버는 html 파일을 웹 브라우저에 전달하고, 웹 브라우저는 html문서에 필요한 리소스를 다시 웹 서버에 요청
