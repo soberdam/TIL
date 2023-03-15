@@ -58,8 +58,9 @@
 - `git remote (-v)` : 현재 로컬에 연결된 원격저장소 정보를 보여줌
 - `git clone 원격저장소 주소` : (터미널이나 Git Bash에서 대상 폴더 이동 후) 원격 저장소에서 로컬 저장소로 깃의 관리 내역을 포함하여 복사
 - `git push` : 로컬 저장소의 커밋을 원격 저장소로 밀어올리기
-- `git pull` : 원격 저장소의 커밋을 로컬 저장소로 당겨오기
-- `git pull --no-rebase` - **merge** 방식
+- `git fecth` : 원격 저장소의 커밋을 동기화
+- `git pull` : 원격 저장소의 커밋을 로컬 저장소로 당겨오고 + 합치기 (fetch + pull)
+- `git pull --no-rebase` - **merge 방식**
 - `git pull --rebase` - **rebase 방식**
     - pull 상의 rebase는 다름 (협업시 사용 OK)
 - `git push --force` : 로컬의 내역 강제 push
