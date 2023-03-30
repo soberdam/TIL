@@ -9,7 +9,7 @@ public class ArrayEx9 {
 		int[] arr = new int [10];
 		
 		for(int i=0; i<arr.length; i++) {
-			int tmp = (int)(Math.random()*5);
+			int tmp = (int)(Math.random()*code.length);
 			arr[i] = code[tmp];
 		}
 		
