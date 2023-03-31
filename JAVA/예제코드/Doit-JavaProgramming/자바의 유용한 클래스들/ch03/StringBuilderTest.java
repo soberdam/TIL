@@ -12,6 +12,8 @@ public class StringBuilderTest {
 		System.out.println(buffer.toString());
 		System.out.println(System.identityHashCode(buffer));
 		
+		java = buffer.toString();
+		
 	}
 
 }
