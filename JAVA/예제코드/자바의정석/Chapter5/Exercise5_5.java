@@ -15,9 +15,7 @@ public class Exercise5_5 {
 			ballArr[j] = tmp;
 		}
 		// 배열 ballArr의 앞에서 3개의 수를 배열 ball3로 복사한다.
-		ball3[0] = ballArr[0];
-		ball3[1] = ballArr[1];
-		ball3[2] = ballArr[2];
+		System.arraycopy(ballArr,0,ball3,0,3);
 		for(int i=0;i<ball3.length;i++) {
 			System.out.print(ball3[i]);
 		}
