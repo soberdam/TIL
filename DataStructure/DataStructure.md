@@ -88,9 +88,22 @@
 - 그래프를 탐색하는 방법 : BFS(bread first search), DFS(depth first search)
 
 ## 해싱
+- 자료를 검색하기 위한 자료구조
+- 키(key)에 대한 자료를 검색하는 사전(dictionary) 개념의 구조
+- 유일한 key에 대응하는 value(값)을 쌍으로 저장
+- index = h(key) : 해시 함수가 key에 대한 인덱스를 반환해준다. 해당 인덱스 위치의 자료를 저장하거나 검색할 때 사용한다.
+- 해시 함수로 index 연산을 할 수 있기 때문에 O(1)의 상수시간에 탐색 가능
+- jdk 클래스 : HashMap, Properties
 
 ### 해시테이블
+![image](https://user-images.githubusercontent.com/106129404/229288468-3bc0a8cd-1847-4b97-9d00-b536de132d2d.png)
+
+- 해시 함수를 이용하여 자료가 저장되는 메모리 구조
+- jdk는 75%정도의 load balance를 유지. 이를 초과하면 테이블의 크기를 늘린다.
+- 이는 collison 발생 시 오버헤드가 발생할 수 있기 때문이다.
 
 ### 체이닝
+![image](https://user-images.githubusercontent.com/106129404/229288523-dd2c13f7-e54c-4489-a19c-2892bfeaa230.png)
 
+- key값에 해당하는 index 옆에 자료들을 연결리스트로 연결
 
