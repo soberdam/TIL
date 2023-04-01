@@ -75,9 +75,17 @@
 - 자료의 중복을 허용하지 않음 (key의 유일성)
 -  왼쪽 자식 노드는 부모 노드보다 작은 값, 오른쪽 자식 노드는 부모 노드보다 큰 값
 -  자료 검색에 걸리는 평균 시간이 O(log n)
+-  중위순회 시 자료가 정렬되어 출력됨
 
 ## 그래프
+![image](https://user-images.githubusercontent.com/106129404/229287644-caf2cf76-70eb-4e49-974b-bbcb281833d8.png)
 
+- 정점과 간선들의 유한 집합
+- 정점(vertex) : 여러 특성을 가지는 객체, 노드
+- 간선(edge) : 정점들의 연결 관계, 링크
+- 간선은 방향성이 있는 경우와 없는 경우가 있음
+- 그래프를 구현하는 방법 : 인접 행렬(adjacency matrix), 인접 리스트(adjacency list)
+- 그래프를 탐색하는 방법 : BFS(bread first search), DFS(depth first search)
 
 ## 해싱
 
