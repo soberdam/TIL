@@ -48,6 +48,9 @@
 ![image](https://user-images.githubusercontent.com/106129404/229286435-a4789e9d-bbb3-494e-94a3-5c0b330c6f32.png)
 
 - 가장 나중에 입력된 자료가 먼저 출력되는 후입선출(LIFO) 구조
+- 맨 마지막 위치(top) 에서만 자료의 추가, 삭제, 반환이 가능함
+- 함수의 메모리는 호출 순서에 따른 stack 구조
+- jdk 클래스 : Stack
 
 ## 큐
 ![image](https://user-images.githubusercontent.com/106129404/229286442-682feecd-470f-49c2-86da-5f8f7be964aa.png)
