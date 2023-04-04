@@ -55,7 +55,10 @@
 ## 큐
 ![image](https://user-images.githubusercontent.com/106129404/229286442-682feecd-470f-49c2-86da-5f8f7be964aa.png)
 
--  가장 먼저 입력된 자료가 먼저 출력되는 후입선출(LIFO) 구조
+- 가장 먼저 입력된 자료가 먼저 출력되는 후입선출(LIFO) 구조
+- 맨 앞(front)에서 자료를 꺼내거나 삭제하고, 맨 뒤(rear)에 자료를 추가함
+- 입력된 자료를 순차적으로 처리하는 데에 주로 사용된다.
+- jdk클래스 : ArrayList
 
 <br>
 
