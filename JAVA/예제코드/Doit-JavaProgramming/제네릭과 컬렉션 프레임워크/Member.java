@@ -1,4 +1,4 @@
-package ch05;
+package ch06;
 
 public class Member {
 	private int memberId;        //회원 아이디
@@ -26,5 +26,24 @@ public class Member {
 	public String toString(){   //toString 메소드 오버로딩
 		return memberName + " 회원님의 아이디는 " + memberId + "입니다";
 	}
+
+	@Override
+	public int hashCode() {
+		return memberId;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if(obj instanceof Member) {
+			Member member = (Member)obj;
+			if(this.memberId == member.getMemberId()) {
+				return true;
+			}
+		}
+		
+		return false;
+	}
+	
+	
 
 }
