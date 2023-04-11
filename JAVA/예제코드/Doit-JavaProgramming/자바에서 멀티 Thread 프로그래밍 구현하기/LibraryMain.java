@@ -15,7 +15,7 @@ class Library {
 	public synchronized String lendBook() throws InterruptedException {
 		Thread t = Thread.currentThread();
 		
-		if(shelf.size() == 0) {
+		while(shelf.size() == 0) {
 			System.out.println(t.getName() + " waiting start");
 			wait();
 			System.out.println(t.getName() + " waiting end");
@@ -28,7 +28,7 @@ class Library {
 public synchronized void returnBook(String book) {
 		Thread t = Thread.currentThread();
 		shelf.add(book);
-		notify();
+		notifyAll();
 		System.out.println(t.getName() + ": " + book + " return");
 	}
 }
@@ -38,7 +38,7 @@ class Student extends Thread {
 		try {
 			
 			String title = LibraryMain.lib.lendBook();
-			if(title != null) return;
+			if(title == null) return;
 			sleep(5000);
 			LibraryMain.lib.returnBook(title);
 			
