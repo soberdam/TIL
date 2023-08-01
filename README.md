@@ -4,7 +4,7 @@
 
 <br>
 
-## Java
+# Java
 - [자바기초](https://github.com/soberdam/TIL/blob/main/JAVA/%EC%9E%90%EB%B0%94-%EA%B8%B0%EC%B4%88.md)
 - [변수](https://github.com/soberdam/TIL/blob/main/JAVA/%EB%B3%80%EC%88%98.md)
 - [연산자](https://github.com/soberdam/TIL/blob/main/JAVA/%EC%97%B0%EC%82%B0%EC%9E%90.md)
@@ -21,16 +21,19 @@
 - [네트워킹](https://github.com/soberdam/TIL/blob/main/JAVA/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%82%B9.md)
 - [예제코드](https://github.com/soberdam/TIL/tree/main/JAVA/%EC%98%88%EC%A0%9C%EC%BD%94%EB%93%9C)
 
-## Git
+# Git
 - [git](https://github.com/soberdam/TIL/blob/main/JAVA/%EC%BB%AC%EB%A0%89%EC%85%98-%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC.md)
 - [git CLI](https://github.com/soberdam/TIL/blob/main/Git/git%20CLI.md)
 
-## HTML
-- [html](https://github.com/soberdam/TIL/blob/main/HTML/html.md)
+# HTML
+- [HTML](https://github.com/soberdam/TIL/blob/main/HTML/html.md)
 - [예제코드](https://github.com/soberdam/TIL/tree/main/HTML/%EC%98%88%EC%A0%9C%EC%BD%94%EB%93%9C)
 
-## 자료구조
+# CSS
+- [CSS](https://github.com/soberdam/TIL/blob/main/CSS/CSS.md)
+
+# 자료구조
 - [자료구조](https://github.com/soberdam/TIL/blob/main/DataStructure/DataStructure.md)
 
-## Database
+# Database
 -
