@@ -24,7 +24,8 @@
 
 # CSS 구성요소
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d47f47d8-7daf-4af8-8762-e69478d2ed6d/Untitled.png)
+![Untitled](https://github.com/soberdam/TIL/assets/106129404/2d91bc10-429a-4e3c-ac81-4beba2df859e)
+
 
 1. 선택자 ( 무엇을 )
 2. 선언 ( 어떻게 ) - 선언의 끝에는 항상 세미콜론 `;` 으로 구분한다.
