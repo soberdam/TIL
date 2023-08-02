@@ -31,14 +31,14 @@
 # Script 태그
 
 ```jsx
-<body>
+<head>
 	<script src="index.js"></script>
-</body>
+</head>
 
 ```
 
-- <script>태그를 사용하여 javaScript 코드를 작성한다.
-- <script>태그 안에 src의 속성값으로 js파일을 입력 후 html파일과 연동한다.
+- <script>태그를 사용하여 html 내부에서 javaScript 코드를 작성한다.
+- js파일로 작성 후 <script> 태그 안에 src의 속성값으로 js파일을 입력하여 html파일과 연동한다.
 - `document.write()` 웹에 표시, 동적인 결과 (HTML은 정적인 결과)
 - `console.log();` 특정 변수 내 데이터 확인
 - 우클릭 + 검사 or F12로 변수 데이터 확인
