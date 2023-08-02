@@ -30,9 +30,15 @@
 
 # Script 태그
 
-!https://s3-us-west-2.amazonaws.com/secure.notion-static.com/577b19e3-a6e8-44c6-9e7c-bc92166af537/image1.png
+```jsx
+<body>
+	<script src="index.js"></script>
+</body>
 
-- <script>태그를 사용하여 javascript 코드를 작성한다.
+```
+
+- <script>태그를 사용하여 javaScript 코드를 작성한다.
+- <script>태그 안에 src의 속성값으로 js파일을 입력 후 html파일과 연동한다.
 - `document.write()` 웹에 표시, 동적인 결과 (HTML은 정적인 결과)
 - `console.log();` 특정 변수 내 데이터 확인
 - 우클릭 + 검사 or F12로 변수 데이터 확인
