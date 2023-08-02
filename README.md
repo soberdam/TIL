@@ -32,6 +32,9 @@
 # CSS
 - [CSS](https://github.com/soberdam/TIL/blob/main/CSS/CSS.md)
 
+# JavaScript
+- [JavaScript](https://github.com/soberdam/TIL/blob/main/JavaScript/JavaScript.md)
+
 # 자료구조
 - [자료구조](https://github.com/soberdam/TIL/blob/main/DataStructure/DataStructure.md)
 
