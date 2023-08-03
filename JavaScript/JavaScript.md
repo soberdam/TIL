@@ -22,6 +22,9 @@
 - [라이브러리](#라이브러리)
   - [라이브러리 vs 프레임워크](#라이브러리-vs-프레임워크)
   - [jQuery](#jQuery)
+- [Web API](#Web-API)
+  - [Dom](#Dom)
+  - [Bom](#Bom)
 
 # 자바스크립트란?
 
@@ -34,15 +37,16 @@
 # Script 태그
 
 ```jsx
-<head>
+</body>
 	<script src="index.js"></script>
-</head>
+</html>
 
 ```
 
 - <script>태그를 사용하여 html 내부에서 javaScript 코드를 작성한다.
 - js파일로 작성 후 <script> 태그 안에 src의 속성값으로 js파일을 입력하여 html파일과 연동한다.
 - 캐시로 한번 js파일을 다운받으면 수정되기 전까지 저장해두기 때문에 자원을 절감할 수 있다.
+- script태그는 body의 닫는 태그 뒤에 위치하는 것이 좋다.
 - `document.write()` 웹에 표시, 동적인 결과 (HTML은 정적인 결과)
 - `console.log();` 특정 변수 내 데이터 확인
 - 우클릭 + 검사 or F12로 변수 데이터 확인
@@ -293,3 +297,33 @@ a == 100 && (b = 7)// 괄호를 쳐서 실행문으로 만든다.
 - 자바스크립트의 가장 대표적인 라이브러리
 - 라이브러리를 다운로드 받아서 프로젝트 폴더에 import하거나
 - CDN을 활용하여 script 태그의 src에 url을 입력한다.
+
+# Web API
+
+- JavaScript가 아닌, 브라우저에서 제공하는 window 전역 객체의 요소
+- 개발자가 HTML문서나 브라우저의 elements들을 제어할 수 있게 해주는 API
+- 모든 Node 객체는 EventTarget 인터페이스를 상속받으므로, addEvenetListener와 removeEventListener기능을 사용할 수 있다.
+
+## DOM
+
+- Document Object Model
+- 문서에 대한 모든 내용을 담고 있는 객체
+- HTML, XML문서의 프로그래밍 인터페이스
+- 브라우저의 렌더링 엔진이 HTML을 해석(Parsing)해서 HTML의 구조를 노드 트리로 제공
+- 확장자가 다른 JavaScript가 HTML과 CSS를 읽고 수정할 수 있는 건 DOM 때문
+- document 노드는 DOM트리의 최상위에 존재하는 유일한 객체
+- getElementsBytagName, getElementsByClassName, querySelectorAll 메소드를 주로 사용
+- getElementsBytagName, getElementsByClassName은 HTML Collection 객체이며
+- querySelectorAll 은 NodeList객체이다.
+- HTML Collection 객체는 Live객체여서 Dom이 변경되면 자동으로 값을 변경
+- NodeList 는 정적으로 과거의 값 유지
+- 둘 다 for문 반복이 가능하지만, HTML Collection은 forEach 사용이 불가능
+- 노드 객체의 상태 변경과 상관없이 사용하려면 둘 다 스프레드 연산자로 배열로 변환 후 사용하는 것을 권장
+
+## BOM
+
+- Browser Object Model
+- 웹 브라우저 환경의 다양한 기능을 객체처럼 다루는 모델
+- 브라우저 버튼, URL, 주소입력창, 타이틀바 등
+- 정의된 표준이 없어 브라우저마다 세부사항이 다르다.
+- window는 최상위 객체이기 때문에 생략이 가능하다.
