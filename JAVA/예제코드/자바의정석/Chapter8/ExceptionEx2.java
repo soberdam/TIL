@@ -4,8 +4,8 @@ class ExceptionEx2 {
 		int result = 0;
 
 		for(int i=0; i < 10; i++) {
-			result = number / (int)(Math.random() * 10); // 7번째 라인
+			result = number / (int)(Math.random() * 10); 
 			System.out.println(result);
 		}
-	} // main의 끝
+	} 
 }
