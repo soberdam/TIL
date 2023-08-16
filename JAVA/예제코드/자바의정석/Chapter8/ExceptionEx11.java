@@ -1,5 +1,5 @@
 class ExceptionEx11 {
 	public static void main(String[] args) {
-		throw new RuntimeException();	// RuntimeExceptionÀ» °íÀÇ·Î ¹ß»ý½ÃÅ²´Ù.
+		throw new RuntimeException();	// RuntimeExceptionÃ€Â» Â°Ã­Ã€Ã‡Â·ÃŽ Â¹ÃŸÂ»Ã½Â½ÃƒÃ…Â²Â´Ã™.
 	}
 }
