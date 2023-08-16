@@ -7,7 +7,7 @@ class ExceptionEx4 {
 				System.out.println(4);
 			} catch (Exception e)	{
 				System.out.println(5);
-			} // try-catch의 끝
+			} 
 			System.out.println(6);
-	}	// main메서드의 끝
+	}
 }
