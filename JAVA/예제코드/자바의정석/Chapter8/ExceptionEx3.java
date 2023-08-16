@@ -9,7 +9,7 @@ class ExceptionEx3 {
 				System.out.println(result);
 			} catch (ArithmeticException e)	{
 				System.out.println("0");	
-			} // try-catch의 끝
-		} // for의 끝
+			} 
+		}
 	} 
 }
